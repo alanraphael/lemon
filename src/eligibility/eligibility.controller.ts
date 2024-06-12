@@ -11,7 +11,7 @@ import { ApiBody } from '@nestjs/swagger';
 import { EligibilityEntity } from './entities/eligibility.entity';
 import { ShowEligibilityDto } from './dto/show-eligibility.dto';
 
-@Controller()
+@Controller('/eligibility')
 export class EligibilityController {
   constructor(private readonly eligibilityService: EligibilityService) {}
 
