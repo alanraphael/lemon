@@ -24,4 +24,4 @@ $ npm run start
 $ npm run test
 ```
 
-Para acesso ao Swagger, utilize o endpoint /api.
+Para acesso ao Swagger, utilize http://localhost:3000/api.
