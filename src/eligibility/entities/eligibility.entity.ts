@@ -18,13 +18,6 @@ export class EligibilityEntity {
   private _modalidadeTarifaria: ModalidadeTarifariaEnum;
   private _historicoDeConsumo: HistoricoDeConsumo;
 
-  readonly _classeDeConsumoElegivel = [
-    'comercial',
-    'residencial',
-    'industrial',
-  ];
-  readonly _modalidadeTarifariaElegivel = ['convencional', 'branca'];
-
   constructor({
     numeroDoDocumento,
     tipoDeConexao,
